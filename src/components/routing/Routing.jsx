@@ -9,7 +9,7 @@ const Routing = () => {
   return (
     <Router>
         <Routes>
-            <Route path='/' element={<Login></Login>}></Route>
+            <Route path='/login' element={<Login></Login>}></Route>
             <Route path='/registration' element={<Registration></Registration>}></Route>
             <Route path='/verification' element={<Verification></Verification>}></Route>
             <Route path='/forget-password' element={<ForgetPass></ForgetPass>}></Route>
